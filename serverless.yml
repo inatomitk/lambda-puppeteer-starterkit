@@ -1,0 +1,23 @@
+service: lambda-puppeteer-template
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: ${opt:stage, 'dev'}
+  # input region
+  region: ap-northeast-1
+  # input role
+  role: role
+  timeout: 30
+  environment:
+    NODE_ENV: ${opt:stage, 'dev'}
+
+functions:
+  main:
+    handler: index.handler
+    layers:
+      - {Ref: ChromiumLambdaLayer}
+
+layers:
+  chromium:
+    path: layer

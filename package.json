@@ -1,0 +1,17 @@
+{
+  "name": "lambda-puppeteer-template",
+  "version": "1.0.0",
+  "description": "puppeteer template using AWS Lambda.",
+  "author": "inatomitk",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "postinstall": "npm --prefix ./layer/nodejs install ./layer/nodejs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^1.12.2"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
