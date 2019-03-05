@@ -5,7 +5,7 @@
   "author": "inatomitk",
   "license": "MIT",
   "scripts": {
-    "test": "jest",
+    "test": "NODE_PATH='./layer/nodejs/node_modules' jest",
     "postinstall": "npm --prefix ./layer/nodejs install ./layer/nodejs"
   },
   "dependencies": {
