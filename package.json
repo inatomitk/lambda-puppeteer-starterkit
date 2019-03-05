@@ -9,6 +9,7 @@
     "postinstall": "npm --prefix ./layer/nodejs install ./layer/nodejs"
   },
   "dependencies": {
+    "config": "^3.0.1",
     "puppeteer-core": "^1.12.2"
   },
   "devDependencies": {
