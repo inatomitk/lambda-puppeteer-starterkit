@@ -12,15 +12,15 @@ npm install
 ## deploy
 
 ```
-serverless deploy --aws-profile [profile-name]
+npx serverless deploy --aws-profile [profile-name]
 ```
 
 only function deploy
 ```
-serverless deploy function -f main
+npx serverless deploy function -f main
 ```
 
 production deploy
 ```
-serverless deploy --aws-profile [profile-name] --stage prod
+npx serverless deploy --aws-profile [profile-name] --stage prod
 ```
