@@ -1,4 +1,4 @@
-# lambda-puppeteer-template
+# lambda-puppeteer-starterkit
 based on [alixaxel/chrome-aws-lambda](https://github.com/alixaxel/chrome-aws-lambda).
 using [serverless](https://serverless.com/).
 
