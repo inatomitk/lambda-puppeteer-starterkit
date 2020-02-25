@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chrome-aws-lambda": "^1.12.1"
+    "chrome-aws-lambda": "^2.1.1"
   }
 }

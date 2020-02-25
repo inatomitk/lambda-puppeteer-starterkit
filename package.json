@@ -1,7 +1,7 @@
 {
-  "name": "lambda-puppeteer-template",
+  "name": "lambda-puppeteer-starterkit",
   "version": "1.0.0",
-  "description": "puppeteer template using AWS Lambda.",
+  "description": "puppeteer starter kit using AWS Lambda.",
   "author": "inatomitk",
   "license": "MIT",
   "scripts": {
@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "config": "^3.0.1",
-    "puppeteer-core": "^1.12.2"
+    "puppeteer-core": "^2.1.1"
   },
   "devDependencies": {
-    "jest": "^23.6.0",
+    "jest": "^25.1.0",
     "serverless": "^1.38.0"
   }
 }
