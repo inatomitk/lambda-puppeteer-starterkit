@@ -5,6 +5,6 @@ exports.handler = async (event, context, callback) => {
 
   const crawlTargetUrl = 'http://example.com'
   await crawler.crawl(crawlTargetUrl)
-  
+
   callback(null)
 }
