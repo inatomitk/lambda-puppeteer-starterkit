@@ -1,4 +1,4 @@
-service: lambda-puppeteer-template
+service: lambda-puppeteer-starterkit
 
 provider:
   name: aws
